@@ -29,5 +29,4 @@ class HomeController extends AbstractController
          $products = ['jaimepastwig1', 'jaimepastwig2', 'jaimepastwig3', 'jaimepastwig4', 'jaimepastwig5'];
         return $this->twig->render('Home/products.html.twig', ['products' => $products]);
     }
-
 }
